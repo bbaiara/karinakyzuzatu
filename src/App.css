@@ -1,0 +1,106 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+  /* height: 100vh; */
+  font-family: "Comfortaa", sans-serif;
+  line-height: 150%;
+  text-align: center;
+  /* font-family: "Roboto Condensed", sans-serif; */
+
+} */
+
+
+/* Ensure no extra margins or paddings in the body */
+html, body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+/* Background section */
+.intro {
+  position: relative;
+  height: 60vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/yurt2.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+/* Header for Adilet & Karina */
+.intro-header {
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro-header h1 {
+  font-family: 'MonteCarlo', cursive;
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+}
+.intro-header h2 {
+  font-family: 'MonteCarlo', cursive;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 20vh;
+}
+/* Footer for Үйлөнүү Тойго Чакыруу */
+.intro-footer {
+  padding: 0; /* Remove extra padding */
+  margin: 0; /* Remove any default margin */
+  text-align: center;
+  background-color: white; /* Add a white background if needed */
+}
+.App{
+  background-color: white;
+  max-width: 449px;
+  margin-bottom: 42px;
+
+}
+.intro-footer p {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  margin: 0; /* Remove extra margins */
+  padding-top: 10px; /* Slight padding for breathing room */
+}
+.pad{
+  padding: 0 24px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .gallery {
+    padding: 0 12px;
+  }
+
+.App{
+  width: 100%;
+}
+}
+/* @media (s) {
+
+} */
+
