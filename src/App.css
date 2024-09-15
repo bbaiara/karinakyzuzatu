@@ -53,7 +53,7 @@ html, body {
 }
 .invitation {
   position: relative;
-  height: 65vh; /* Adjust height if necessary */
+  height: 45vh; /* Adjust height if necessary */
   background-image: url('/src/assets/invit_text.jpg');
   background-size: cover;
   background-position: center;
