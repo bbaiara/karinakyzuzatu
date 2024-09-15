@@ -27,7 +27,7 @@ html, body {
 /* Background section */
 .intro {
   position: relative;
-  height: 70vh; /* Adjust height if necessary */
+  height: 80vh; /* Adjust height if necessary */
   background-image: url('/src/assets/1_3.png');
   background-size: cover;
   background-position: center;
@@ -45,16 +45,16 @@ html, body {
 }
 .poem {
   position: relative;
-  height: 50vh; /* Adjust height if necessary */
-  background-image: url('/src/assets/posle_stiha.png');
+  height: 45vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/posle_stiha.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 .invitation {
   position: relative;
-  height: 45vh; /* Adjust height if necessary */
-  background-image: url('/src/assets/invit_text.png');
+  height: 65vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/invit_text.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
