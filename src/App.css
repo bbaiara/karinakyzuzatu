@@ -5,19 +5,19 @@
   box-sizing: border-box;
   display: flex;
   justify-content: center;
-  background-color: azure;
+  background-color: rgb(255, 255, 255);
   /* height: 100vh; */
   font-family: "Comfortaa", sans-serif;
   line-height: 150%;
   text-align: center;
   /* font-family: "Roboto Condensed", sans-serif; */
 
-} */
+} 
 
 
 /* Ensure no extra margins or paddings in the body */
 html, body {
-  background-color: azure;
+  background-color: rgb(255, 253, 240);
   margin: 0;
   padding: 0;
   height: 100%;
@@ -27,44 +27,51 @@ html, body {
 /* Background section */
 .intro {
   position: relative;
-  height: 60vh; /* Adjust height if necessary */
-  background-image: url('/src/assets/yurt2.jpg');
+  height: 70vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/1_3.png');
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
-/* Header for Adilet & Karina */
-.intro-header {
-  position: absolute;
-  top: 10vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.intro-header h1 {
-  font-family: 'MonteCarlo', cursive;
-  font-size: 4rem;
-  color: white;
-  margin: 0;
-}
-.intro-header h2 {
-  font-family: 'MonteCarlo', cursive;
-  font-size: 4rem;
-  line-height: 4rem;
-  font-weight: 400;
-  color: white;
-  margin-top: 20vh;
-}
 /* Footer for Үйлөнүү Тойго Чакыруу */
 .intro-footer {
-  padding: 0; /* Remove extra padding */
-  margin: 0; /* Remove any default margin */
+  position: relative;
+  height: 45vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/stih_only.png');
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  background-color: white; /* Add a white background if needed */
 }
+.poem {
+  position: relative;
+  height: 50vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/posle_stiha.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.invitation {
+  position: relative;
+  height: 45vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/invit_text.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.details{
+  position: relative;
+  height: 55vh; /* Adjust height if necessary */
+  background-image: url('/src/assets/date.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
 .App{
-  background-color: white;
+  background-color: #FAF6F1;
   max-width: 449px;
   margin-bottom: 42px;
 
@@ -77,7 +84,7 @@ html, body {
   padding-top: 10px; /* Slight padding for breathing room */
 }
 .pad{
-  padding: 0 24px;
+  padding: 0;
 }
 .gallery {
   display: grid;

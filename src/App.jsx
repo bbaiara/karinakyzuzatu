@@ -5,27 +5,17 @@ function App() {
   return (
     <div className="App">
       <div className="intro">
-        <div className="intro-header">
-          <h1>Karina</h1>
-          <h2>Кыз Узатуу          </h2>
-        </div>
       </div>
     <div className='pad'>
       <div className="intro-footer">
-        <p>Урматтуу коноктор!</p>
       </div>
+      
       <div className="poem">
-        <p>Сиздерди кызыбыз Каринанын кыз узатуу тоюна арналган салтанаттуу ак дасторкон үстүндө кадырлуу коногубуз болуп, ак батаңыздарды берип кетүүгө чакырабыз!.</p>
       </div>   
       <div className="invitation">
-        <p>Your invitation text goes here...</p>
       </div>
       <div className="details">
-        <p>17.09.2024 | 12:00</p>
-        <p>Үйүбүздүн дареги : 
-        Бишкек шаары, Азия 3</p>
-        <p>Сиздерди Урматтоо менен той ээлери: Ниязбек,
-        Эльвира</p>
+        
         <div className="map">
           {/* Embed Google Map or other map service here */}
         </div>
